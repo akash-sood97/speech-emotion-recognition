@@ -1,0 +1,17 @@
+{
+  "heldout_macro_f1": 0.7596,
+  "ci_low": 0.6527,
+  "ci_high": 0.8519,
+  "logreg_macro_f1": 0.5775,
+  "majority_macro_f1": 0.0294,
+  "speakers_ahead": 6,
+  "heldout_speakers": 6,
+  "heldout_clips": 360,
+  "dev_clips": 1080,
+  "flag_threshold": 0.827,
+  "flag_rate_dev": 0.3,
+  "flag_rate_heldout": 0.392,
+  "capture_heldout": 0.703,
+  "precision_heldout": 0.957,
+  "gain_vs_logreg": 0.1822
+}
