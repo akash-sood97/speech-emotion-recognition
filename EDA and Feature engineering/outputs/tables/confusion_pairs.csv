@@ -1,0 +1,5 @@
+pair,n,oof_auc,oof_accuracy,energy_median_calm,energy_median_sad,energy_median_neutral,energy_median_surprised,energy_median_fearful
+calm vs sad,288,0.7977,0.7396,0.00548,0.00874,,,
+neutral vs sad,216,0.7318,0.713,,0.00874,0.0064,,
+neutral vs calm,216,0.743,0.7176,0.00548,,0.0064,,
+surprised vs fearful,288,0.8317,0.7674,,,,0.01864,0.02933

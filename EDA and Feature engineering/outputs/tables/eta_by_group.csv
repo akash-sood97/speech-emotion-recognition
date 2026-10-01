@@ -1,0 +1,6 @@
+group,eta2_emotion,eta2_speaker,n_features,share_emotion_gt_speaker
+energy,0.3413,0.0426,5,1.0
+mfcc,0.0476,0.1697,480,0.112
+pitch,0.1182,0.0,5,0.8
+spectral,0.1146,0.2058,20,0.15
+voice_quality,0.1779,0.1356,2,0.5

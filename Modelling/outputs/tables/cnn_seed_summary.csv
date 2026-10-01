@@ -1,0 +1,7 @@
+model,split_type,macro_f1_mean,macro_f1_sd_across_folds,n_folds
+cnn-s0,grouped,0.3865,0.0468,6
+cnn-s0,random,0.408,0.061,6
+cnn-s1,grouped,0.4236,0.0493,6
+cnn-s1,random,0.4318,0.1121,6
+cnn-s2,grouped,0.4071,0.096,6
+cnn-s2,random,0.4477,0.0867,6

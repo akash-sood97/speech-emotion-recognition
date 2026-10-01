@@ -1,0 +1,55 @@
+{
+  "generated_by": "01_EDA.ipynb",
+  "scope": "supplied files only",
+  "dataset": {
+    "n_clips": 1440,
+    "n_speakers": 24,
+    "clips_per_speaker": 60,
+    "n_classes": 8,
+    "sample_rate_hz": 48000,
+    "total_minutes": 88.8,
+    "unit_of_analysis": "one speech clip",
+    "target_variable": "emotion (8 classes)"
+  },
+  "duration_sec": {
+    "min": 2.94,
+    "max": 5.27,
+    "mean": 3.7,
+    "median": 3.67
+  },
+  "class_counts": {
+    "neutral": 96,
+    "calm": 192,
+    "sad": 192,
+    "disgust": 192,
+    "happy": 192,
+    "surprised": 192,
+    "fearful": 192,
+    "angry": 192
+  },
+  "imbalance_ratio": 2.0,
+  "quality_findings": {
+    "stereo files": 5,
+    "duplicate waveforms": 2,
+    "clipped files": 1,
+    "files with DC offset": 0,
+    "very low energy (flag)": 12
+  },
+  "unique_waveforms": 1439,
+  "stereo_files": [
+    "data/Person01/02-01-01-02-01.wav",
+    "data/Person01/08-01-02-02-01.wav",
+    "data/Person05/02-01-02-02-05.wav",
+    "data/Person20/03-01-02-01-20.wav",
+    "data/Person20/06-01-01-02-20.wav"
+  ],
+  "duplicate_pair": [
+    "data/Person07/03-01-02-01-07.wav",
+    "data/Person07/03-01-02-02-07.wav"
+  ],
+  "variables_used": {
+    "emotion": "filename field 1, mapping given in the project brief",
+    "speaker": "folder name Person01-Person24",
+    "not_decoded": "filename fields 2-4, as the project brief says"
+  }
+}

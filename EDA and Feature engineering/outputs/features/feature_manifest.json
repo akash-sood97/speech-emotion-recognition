@@ -1,0 +1,25 @@
+{
+  "generated_by": "shared/features.py",
+  "seed": 42,
+  "n_clips": 1440,
+  "n_feature_columns": 512,
+  "feature_groups": {
+    "mfcc": 480,
+    "spectral": 20,
+    "energy": 5,
+    "pitch": 5,
+    "voice_quality": 2
+  },
+  "clip_seconds": 3.5,
+  "trim_top_db": 30.0,
+  "masked": true,
+  "mean_padding_frac_of_window": 0.471,
+  "clips_cropped": 7,
+  "pitch_normalisation": "per-speaker z-score on f0_mean/std/range/slope",
+  "energy_source": "RMS of the trimmed signal + frame RMS on the trimmed signal",
+  "mfcc_spectral_source": "speech frames only (trimmed, cropped to window, not padded)",
+  "metadata_excluded": [
+    "speaker (grouping variable only)",
+    "filename fields 2-4 (not decoded, per the project brief)"
+  ]
+}

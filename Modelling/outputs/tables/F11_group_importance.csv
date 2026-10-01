@@ -1,0 +1,6 @@
+group,n_cols,mean,std
+voice_quality,2,0.0076,0.0191
+pitch,5,0.0082,0.0175
+energy,5,0.0202,0.0132
+spectral,20,0.0463,0.031
+mfcc,480,0.322,0.0542

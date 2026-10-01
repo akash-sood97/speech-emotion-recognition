@@ -1,0 +1,5 @@
+H,hypothesis,verdict,evidence,so we
+H20,Tuned logistic regression beats a majority-class baseline on speaker-grouped CV,supported,logreg 0.5169 vs majority 0.0294,keep logistic regression as the classical baseline rung
+H21,"Among classical models on acoustic features, logistic regression leads SVC, random forest and gradient boosting",supported,"logreg=0.5169, svc=0.5020, rf=0.4911, gbm=0.4836",use logreg as the classical rung on the ladder
+H22,A random clip split overstates performance relative to a speaker-grouped split for logistic regression,supported,leakage_gap=0.1753,report speaker-grouped numbers as the primary estimate
+H23,Per-speaker z-scoring of acoustic features lifts logistic regression on grouped CV,supported,logreg-spkz 0.5955 vs logreg 0.5169,"keep -spkz as a conditional diagnostic, not the headline"

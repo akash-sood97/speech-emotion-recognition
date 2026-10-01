@@ -1,0 +1,10 @@
+{
+  "standardised features": {
+    "silhouette_emotion": -0.025,
+    "silhouette_speaker": 0.0015
+  },
+  "z-scored within each speaker": {
+    "silhouette_emotion": -0.0241,
+    "silhouette_speaker": -0.0154
+  }
+}

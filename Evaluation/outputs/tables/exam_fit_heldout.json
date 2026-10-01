@@ -1,0 +1,13 @@
+{
+  "wavlm": {
+    "layer": 5,
+    "C": 1.0,
+    "inner_macro_f1": 0.7476
+  },
+  "logreg": {
+    "C": 0.01,
+    "inner_macro_f1": 0.5058
+  },
+  "n_train": 1080,
+  "n_scored": 360
+}

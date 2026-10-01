@@ -1,0 +1,9 @@
+emotion,clips,speech_s_median,padding_pct_mean,loudness_rms_median,pitch_hz_median,voiced_frac_median
+neutral,72,1.62,53.5,0.0064,171.7,0.96
+calm,144,1.94,41.7,0.0055,164.9,0.95
+sad,144,1.8,44.9,0.0087,202.4,0.87
+disgust,144,2.04,38.9,0.0122,193.0,0.76
+happy,144,1.7,50.2,0.0239,236.9,0.89
+surprised,144,1.58,54.4,0.0186,256.2,0.72
+fearful,144,1.64,50.4,0.0293,267.8,0.89
+angry,144,1.9,45.3,0.0428,247.0,0.85

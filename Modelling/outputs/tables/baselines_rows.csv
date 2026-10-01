@@ -1,0 +1,3 @@
+model,split_type,fold,accuracy,macro_f1,balanced_acc,per_class_recall_json
+majority,,,0.1333,0.0294,0.125,"{""neutral"": 0.0, ""calm"": 1.0, ""happy"": 0.0, ""sad"": 0.0, ""angry"": 0.0, ""fearful"": 0.0, ""disgust"": 0.0, ""surprised"": 0.0}"
+stratified_random,,,0.1289,,,

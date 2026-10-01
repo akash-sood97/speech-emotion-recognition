@@ -1,0 +1,6 @@
+H,hypothesis,verdict,evidence,so we
+H26,A frozen WavLM encoder with a logistic head beats classical logreg and the CNN on speaker-grouped CV,supported,wavlm 0.7535; logreg 0.5169; cnn 0.4327,promote WavLM as the leading eligible model
+H27,"Among frozen encoders, WavLM leads wav2vec2 and HuBERT on speaker-grouped CV",supported,"wavlm=0.7535, wav2vec2=0.7115, hubert=0.6999",use WavLM as the encoder in the headline model
+H28,Late fusion of classical logreg probabilities with WavLM beats WavLM alone,not supported,fusion 0.7233 vs wavlm 0.7535,do not prefer fusion over WavLM on grouped CV
+H29,The selection rule picks WavLM among eligible models,supported,"selected=wavlm; tied=['wavlm', 'wav2vec2', 'fusion']",freeze WavLM as the model for the one-shot held-out exam
+H30,Per-speaker z-scoring of WavLM embeddings lifts grouped macro-F1 further,supported,wavlm-spkz 0.8275 vs wavlm 0.7535,"keep -spkz as a conditional diagnostic, not the headline"

@@ -1,0 +1,17 @@
+{
+  "pair": [
+    "data/Person07/03-01-02-01-07.wav",
+    "data/Person07/03-01-02-02-07.wav"
+  ],
+  "unique_waveforms": 1439,
+  "grouped": {
+    "data/Person07/03-01-02-01-07.wav": 1,
+    "data/Person07/03-01-02-02-07.wav": 1
+  },
+  "grouped_same_fold": true,
+  "random": {
+    "data/Person07/03-01-02-02-07.wav": 1,
+    "data/Person07/03-01-02-01-07.wav": 4
+  },
+  "random_same_fold": false
+}

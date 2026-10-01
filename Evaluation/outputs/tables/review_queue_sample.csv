@@ -1,0 +1,13 @@
+queue_position,filepath,true_emotion,pred_emotion,pred_confidence,truly_negative
+1,data/Person05/07-02-02-01-05.wav,disgust,disgust,1.0,True
+30,data/Person11/06-02-02-02-11.wav,fearful,fearful,0.9999,True
+60,data/Person03/07-02-02-01-03.wav,disgust,disgust,0.9993,True
+89,data/Person12/07-02-02-02-12.wav,disgust,disgust,0.9978,True
+118,data/Person12/05-02-02-02-12.wav,angry,angry,0.9944,True
+148,data/Person11/05-02-01-02-11.wav,angry,angry,0.989,True
+177,data/Person19/06-01-02-01-19.wav,fearful,fearful,0.9767,True
+207,data/Person24/05-01-02-02-24.wav,angry,angry,0.9611,True
+236,data/Person10/06-02-01-02-10.wav,fearful,fearful,0.9419,True
+265,data/Person15/05-02-02-01-15.wav,angry,angry,0.9157,True
+295,data/Person07/05-02-01-02-07.wav,angry,angry,0.8776,True
+324,data/Person18/04-02-02-02-18.wav,sad,sad,0.8272,True

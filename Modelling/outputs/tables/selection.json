@@ -1,0 +1,15 @@
+{
+  "rule": "highest mean speaker-grouped macro-F1 (6-fold dev CV); candidates within 1 sd of the leader are tied; a tie goes to the lowest simplicity rank",
+  "leader": "wavlm",
+  "leader_macro_f1": 0.7535,
+  "leader_sd": 0.047,
+  "tie_band_lower": 0.7065,
+  "tied": [
+    "wavlm",
+    "wav2vec2",
+    "fusion"
+  ],
+  "selected": "wavlm",
+  "selected_macro_f1": 0.7535,
+  "selected_sd": 0.047
+}

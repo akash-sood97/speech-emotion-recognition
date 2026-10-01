@@ -1,0 +1,5 @@
+H,hypothesis,verdict,evidence,so we
+H31,The pretrained encoder lifts recall for every emotion above both other rungs,partly supported,wavlm beats logreg and cnn on 7 of 8 emotions; weakest emotion sad 37.5% (logreg) -> sad 58.3% (wavlm),"expect the encoder to help most emotions, and name the exceptions"
+H32,The same emotion pairs stay confused at every rung,not supported,"wavlm top-3 pairs ['sad <-> fearful', 'calm <-> sad', 'neutral <-> calm']; in logreg top-5: 1/3, in cnn top-5: 2/3",report calm and sad as the persistent pair; the other pairs move with the model
+H33,The gain over logistic regression reaches every development speaker,partly supported,wavlm > logreg for 17 of 18 speakers (sign test p = 1.4e-04); worst wavlm speaker 13 0.387,quote the gain per speaker and name the speaker it misses
+H34,A prediction's confidence separates right answers from wrong ones at every rung,supported,"AUROC logreg 0.716, cnn 0.721, wavlm 0.767 (bar 0.65)","build the flag rule in `07` on confidence, comparing rungs at equal flag rate"

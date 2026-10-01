@@ -1,0 +1,405 @@
+timestamp,model,split_type,fold,best_params,inner_macro_f1,outer_macro_f1,n_train,n_val,seconds,note
+2026-09-24 21:21:47,logreg,grouped,0,"{""C"": 0.1}",0.5043,0.5033,900,180,0.8,M1
+2026-09-24 21:21:48,logreg,grouped,1,"{""C"": 0.1}",0.5255,0.4812,900,180,0.8,M1
+2026-09-24 21:21:48,logreg,grouped,2,"{""C"": 0.03}",0.4858,0.5382,900,180,0.8,M1
+2026-09-24 21:21:49,logreg,grouped,3,"{""C"": 0.03}",0.5081,0.458,900,180,0.7,M1
+2026-09-24 21:21:50,logreg,grouped,4,"{""C"": 0.01}",0.4948,0.5901,900,180,0.8,M1
+2026-09-24 21:21:51,logreg,grouped,5,"{""C"": 0.03}",0.4947,0.5305,900,180,0.8,M1
+2026-09-24 21:21:51,logreg,random,0,"{""C"": 0.03}",0.6503,0.6997,900,180,0.8,M1
+2026-09-24 21:21:52,logreg,random,1,"{""C"": 0.3}",0.6481,0.6596,900,180,0.8,M1
+2026-09-24 21:21:53,logreg,random,2,"{""C"": 0.1}",0.645,0.686,900,180,0.8,M1
+2026-09-24 21:21:54,logreg,random,3,"{""C"": 0.1}",0.6204,0.712,900,180,0.7,M1
+2026-09-24 21:21:55,logreg,random,4,"{""C"": 1.0}",0.6264,0.7083,900,180,0.8,M1
+2026-09-24 21:21:55,logreg,random,5,"{""C"": 0.03}",0.6238,0.6873,900,180,0.7,M1
+2026-09-24 21:22:16,svc,grouped,0,"{""C"": 3, ""gamma"": 0.0005}",0.4885,0.4937,900,180,6.8,M1
+2026-09-24 21:22:23,svc,grouped,1,"{""C"": 10, ""gamma"": 0.0005}",0.5199,0.4284,900,180,6.8,M1
+2026-09-24 21:22:30,svc,grouped,2,"{""C"": 10, ""gamma"": 0.001}",0.4832,0.5371,900,180,6.8,M1
+2026-09-24 21:22:36,svc,grouped,3,"{""C"": 30, ""gamma"": 0.0002}",0.4881,0.4543,900,180,6.6,M1
+2026-09-24 21:22:43,svc,grouped,4,"{""C"": 3, ""gamma"": 0.0005}",0.4733,0.5669,900,180,6.6,M1
+2026-09-24 21:22:50,svc,grouped,5,"{""C"": 3, ""gamma"": 0.0005}",0.5003,0.5317,900,180,6.6,M1
+2026-09-24 21:22:56,svc,random,0,"{""C"": 10, ""gamma"": 0.0005}",0.6817,0.7354,900,180,6.8,M1
+2026-09-24 21:23:03,svc,random,1,"{""C"": 10, ""gamma"": 0.001}",0.67,0.7336,900,180,6.9,M1
+2026-09-24 21:23:10,svc,random,2,"{""C"": 10, ""gamma"": 0.001}",0.6827,0.717,900,180,6.9,M1
+2026-09-24 21:23:17,svc,random,3,"{""C"": 10, ""gamma"": 0.002}",0.6684,0.7569,900,180,7.0,M1
+2026-09-24 21:23:24,svc,random,4,"{""C"": 3, ""gamma"": 0.002}",0.6632,0.7547,900,180,6.9,M1
+2026-09-24 21:23:31,svc,random,5,"{""C"": 10, ""gamma"": 0.001}",0.6663,0.7438,900,180,7.0,M1
+2026-09-24 21:24:33,rf,grouped,0,"{""max_features"": 0.15, ""min_samples_leaf"": 1}",0.4731,0.5192,900,180,61.9,M1
+2026-09-24 21:25:27,rf,grouped,1,"{""max_features"": 0.05, ""min_samples_leaf"": 3}",0.4804,0.5179,900,180,53.7,M1
+2026-09-24 21:26:25,rf,grouped,2,"{""max_features"": 0.15, ""min_samples_leaf"": 1}",0.4746,0.494,900,180,58.1,M1
+2026-09-24 21:27:17,rf,grouped,3,"{""max_features"": ""sqrt"", ""min_samples_leaf"": 1}",0.4565,0.3915,900,180,52.5,M1
+2026-09-24 21:28:13,rf,grouped,4,"{""max_features"": ""sqrt"", ""min_samples_leaf"": 3}",0.4638,0.4889,900,180,55.6,M1
+2026-09-24 21:29:05,rf,grouped,5,"{""max_features"": ""sqrt"", ""min_samples_leaf"": 3}",0.4684,0.5349,900,180,52.4,M1
+2026-09-24 21:30:03,rf,random,0,"{""max_features"": 0.15, ""min_samples_leaf"": 1}",0.6081,0.632,900,180,57.8,M1
+2026-09-24 21:30:56,rf,random,1,"{""max_features"": 0.05, ""min_samples_leaf"": 1}",0.5788,0.6331,900,180,53.0,M1
+2026-09-24 21:31:49,rf,random,2,"{""max_features"": 0.05, ""min_samples_leaf"": 1}",0.605,0.5438,900,180,52.8,M1
+2026-09-24 21:32:48,rf,random,3,"{""max_features"": 0.15, ""min_samples_leaf"": 1}",0.5816,0.6789,900,180,58.8,M1
+2026-09-24 21:33:41,rf,random,4,"{""max_features"": 0.05, ""min_samples_leaf"": 1}",0.5984,0.6644,900,180,53.9,M1
+2026-09-24 21:34:40,rf,random,5,"{""max_features"": 0.15, ""min_samples_leaf"": 1}",0.5956,0.629,900,180,58.6,M1
+2026-09-24 21:38:18,gbm,grouped,0,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.4816,0.446,900,180,218.0,M1
+2026-09-24 21:41:57,gbm,grouped,1,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",0.4754,0.4886,900,180,219.3,M1
+2026-09-24 21:45:40,gbm,grouped,2,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.46,0.5191,900,180,222.7,M1
+2026-09-24 21:49:20,gbm,grouped,3,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.4765,0.4179,900,180,219.8,M1
+2026-09-24 21:52:56,gbm,grouped,4,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.4953,0.5184,900,180,216.4,M1
+2026-09-24 21:53:47,wav2vec2,grouped,0,"{""C"": 0.01, ""layer"": 4}",0.6913,0.7415,900,180,8.4,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:53:55,wav2vec2,grouped,1,"{""C"": 0.01, ""layer"": 6}",0.7138,0.652,900,180,8.2,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:54:03,wav2vec2,grouped,2,"{""C"": 0.01, ""layer"": 4}",0.7024,0.716,900,180,7.9,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:54:11,wav2vec2,grouped,3,"{""C"": 1.0, ""layer"": 4}",0.7409,0.6297,900,180,8.0,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:54:20,wav2vec2,grouped,4,"{""C"": 1.0, ""layer"": 4}",0.6846,0.8293,900,180,8.5,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:54:28,wav2vec2,grouped,5,"{""C"": 0.01, ""layer"": 9}",0.6722,0.7007,900,180,8.5,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:54:37,wav2vec2,random,0,"{""C"": 0.1, ""layer"": 3}",0.8436,0.8341,900,180,8.5,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:54:46,wav2vec2,random,1,"{""C"": 1.0, ""layer"": 4}",0.8437,0.893,900,180,8.8,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:54:54,wav2vec2,random,2,"{""C"": 1.0, ""layer"": 4}",0.8506,0.8475,900,180,8.8,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:55:03,wav2vec2,random,3,"{""C"": 0.01, ""layer"": 4}",0.843,0.8805,900,180,8.7,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:55:12,wav2vec2,random,4,"{""C"": 0.1, ""layer"": 4}",0.8409,0.8873,900,180,8.5,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:55:20,wav2vec2,random,5,"{""C"": 1.0, ""layer"": 4}",0.8258,0.8587,900,180,8.7,"M3 frozen wav2vec2, mean-pooled, layer + C by inner CV"
+2026-09-24 21:55:29,hubert,grouped,0,"{""C"": 0.01, ""layer"": 5}",0.6707,0.7206,900,180,8.4,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:55:37,hubert,grouped,1,"{""C"": 0.01, ""layer"": 5}",0.7137,0.644,900,180,8.1,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:55:45,hubert,grouped,2,"{""C"": 0.01, ""layer"": 5}",0.6922,0.7374,900,180,8.1,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:55:53,hubert,grouped,3,"{""C"": 0.01, ""layer"": 6}",0.7096,0.6386,900,180,8.2,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:01,hubert,grouped,4,"{""C"": 0.01, ""layer"": 6}",0.699,0.7731,900,180,8.1,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:10,hubert,grouped,5,"{""C"": 0.01, ""layer"": 5}",0.6944,0.6855,900,180,8.3,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:18,hubert,random,0,"{""C"": 0.1, ""layer"": 5}",0.8253,0.841,900,180,8.2,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:27,hubert,random,1,"{""C"": 1.0, ""layer"": 4}",0.8138,0.8576,900,180,8.6,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:35,hubert,random,2,"{""C"": 0.1, ""layer"": 4}",0.8369,0.8142,900,180,8.6,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:44,hubert,random,3,"{""C"": 1.0, ""layer"": 2}",0.8156,0.8363,900,180,8.5,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:52,hubert,random,4,"{""C"": 0.1, ""layer"": 4}",0.8354,0.8755,900,180,8.6,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:56:53,gbm,grouped,5,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.4751,0.5116,900,180,236.2,M1
+2026-09-24 21:57:01,hubert,random,5,"{""C"": 0.1, ""layer"": 5}",0.8165,0.8725,900,180,8.4,"M3 frozen hubert, mean-pooled, layer + C by inner CV"
+2026-09-24 21:57:10,wavlm,grouped,0,"{""C"": 0.1, ""layer"": 6}",0.7201,0.7824,900,180,9.3,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:57:19,wavlm,grouped,1,"{""C"": 0.01, ""layer"": 6}",0.7518,0.7577,900,180,9.1,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:57:28,wavlm,grouped,2,"{""C"": 0.01, ""layer"": 6}",0.7332,0.7985,900,180,8.9,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:57:37,wavlm,grouped,3,"{""C"": 1.0, ""layer"": 6}",0.7778,0.6647,900,180,8.9,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:57:46,wavlm,grouped,4,"{""C"": 0.1, ""layer"": 6}",0.7238,0.7695,900,180,9.3,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:57:55,wavlm,grouped,5,"{""C"": 1.0, ""layer"": 6}",0.7258,0.7485,900,180,9.0,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:58:04,wavlm,random,0,"{""C"": 1.0, ""layer"": 5}",0.8796,0.8878,900,180,9.4,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:58:14,wavlm,random,1,"{""C"": 1.0, ""layer"": 5}",0.8708,0.871,900,180,9.4,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:58:24,wavlm,random,2,"{""C"": 0.1, ""layer"": 5}",0.8796,0.8536,900,180,9.7,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:58:33,wavlm,random,3,"{""C"": 1.0, ""layer"": 6}",0.8617,0.8815,900,180,9.2,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:58:42,wavlm,random,4,"{""C"": 1.0, ""layer"": 5}",0.8623,0.9243,900,180,9.5,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 21:58:52,wavlm,random,5,"{""C"": 1.0, ""layer"": 5}",0.8483,0.8896,900,180,9.3,"M3 frozen wavlm, mean-pooled, layer + C by inner CV"
+2026-09-24 22:25:11,gbm,random,0,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 7}",0.6009,0.6937,900,180,1698.4,M1
+2026-09-24 22:28:52,gbm,random,1,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 7}",0.6362,0.6847,900,180,220.9,M1
+2026-09-24 22:31:26,logreg-spkz,grouped,0,"{""C"": 0.01}",0.5509,0.6643,900,180,0.7,E4 all-feature per-speaker z-score
+2026-09-24 22:31:26,logreg-spkz,grouped,1,"{""C"": 0.01}",0.5713,0.5585,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:27,logreg-spkz,grouped,2,"{""C"": 0.01}",0.545,0.6297,900,180,0.7,E4 all-feature per-speaker z-score
+2026-09-24 22:31:28,logreg-spkz,grouped,3,"{""C"": 0.01}",0.563,0.5164,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:28,logreg-spkz,grouped,4,"{""C"": 0.01}",0.5496,0.6318,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:29,logreg-spkz,grouped,5,"{""C"": 0.01}",0.5792,0.5723,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:30,logreg-spkz,random,0,"{""C"": 0.3}",0.6858,0.7071,900,180,0.7,E4 all-feature per-speaker z-score
+2026-09-24 22:31:30,logreg-spkz,random,1,"{""C"": 0.03}",0.6606,0.6961,900,180,0.7,E4 all-feature per-speaker z-score
+2026-09-24 22:31:31,logreg-spkz,random,2,"{""C"": 0.01}",0.6909,0.6732,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:31,logreg-spkz,random,3,"{""C"": 0.03}",0.6518,0.7186,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:32,logreg-spkz,random,4,"{""C"": 0.03}",0.651,0.7519,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:33,logreg-spkz,random,5,"{""C"": 0.03}",0.6554,0.6818,900,180,0.6,E4 all-feature per-speaker z-score
+2026-09-24 22:31:42,wavlm-spkz,grouped,0,"{""C"": 0.01, ""layer"": 5}",0.8173,0.8284,900,180,8.2,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:31:51,wavlm-spkz,grouped,1,"{""C"": 0.1, ""layer"": 6}",0.8526,0.7877,900,180,8.4,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:31:59,wavlm-spkz,grouped,2,"{""C"": 0.01, ""layer"": 6}",0.8134,0.902,900,180,8.4,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:32:08,wavlm-spkz,grouped,3,"{""C"": 0.1, ""layer"": 6}",0.8471,0.7819,900,180,8.4,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:32:16,wavlm-spkz,grouped,4,"{""C"": 0.1, ""layer"": 6}",0.8198,0.8721,900,180,8.2,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:32:24,wavlm-spkz,grouped,5,"{""C"": 0.1, ""layer"": 6}",0.837,0.793,900,180,8.3,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:32:32,wavlm-spkz,random,0,"{""C"": 0.1, ""layer"": 4}",0.8986,0.878,900,180,8.1,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:32:41,wavlm-spkz,random,1,"{""C"": 0.1, ""layer"": 6}",0.8807,0.9167,900,180,8.5,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:32:49,wavlm-spkz,random,2,"{""C"": 1.0, ""layer"": 5}",0.8966,0.8633,900,180,8.2,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:32:57,wavlm-spkz,random,3,"{""C"": 0.1, ""layer"": 6}",0.8923,0.8857,900,180,8.2,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:33:05,wavlm-spkz,random,4,"{""C"": 0.1, ""layer"": 6}",0.8962,0.8982,900,180,8.1,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:33:14,wavlm-spkz,random,5,"{""C"": 0.1, ""layer"": 6}",0.8829,0.8999,900,180,8.3,"M3 frozen wavlm, mean-pooled, layer + C by inner CV + E4 per-speaker z-score"
+2026-09-24 22:34:32,gbm,grouped,0,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.4816,0.446,900,180,227.9,M1
+2026-09-24 22:38:09,gbm,grouped,1,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 15}",0.4754,0.4886,900,180,216.8,M1
+2026-09-24 22:41:45,gbm,grouped,2,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.46,0.5191,900,180,216.7,M1
+2026-09-24 22:45:22,gbm,grouped,3,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.4765,0.4179,900,180,216.9,M1
+2026-09-24 22:49:08,gbm,grouped,4,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.4953,0.5184,900,180,225.5,M1
+2026-09-24 22:52:48,gbm,grouped,5,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.4751,0.5116,900,180,220.6,M1
+2026-09-24 22:56:33,gbm,random,0,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 7}",0.6009,0.6937,900,180,224.6,M1
+2026-09-24 22:57:40,layer-wav2vec2-0,grouped,0,{},nan,0.5777,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:40,layer-wav2vec2-0,grouped,1,{},nan,0.5267,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:40,layer-wav2vec2-0,grouped,2,{},nan,0.5637,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:40,layer-wav2vec2-0,grouped,3,{},nan,0.4587,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:40,layer-wav2vec2-0,grouped,4,{},nan,0.4836,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:40,layer-wav2vec2-0,grouped,5,{},nan,0.5704,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-1,grouped,0,{},nan,0.6105,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-1,grouped,1,{},nan,0.57,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-1,grouped,2,{},nan,0.6758,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-1,grouped,3,{},nan,0.5736,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-1,grouped,4,{},nan,0.7237,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-1,grouped,5,{},nan,0.6154,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-2,grouped,0,{},nan,0.6487,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-2,grouped,1,{},nan,0.599,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-2,grouped,2,{},nan,0.675,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-2,grouped,3,{},nan,0.6047,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-2,grouped,4,{},nan,0.7387,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-2,grouped,5,{},nan,0.6709,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:41,layer-wav2vec2-3,grouped,0,{},nan,0.6156,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-3,grouped,1,{},nan,0.6451,900,180,0.0,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-3,grouped,2,{},nan,0.6856,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-3,grouped,3,{},nan,0.6193,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-3,grouped,4,{},nan,0.7571,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-3,grouped,5,{},nan,0.7011,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-4,grouped,0,{},nan,0.6493,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-4,grouped,1,{},nan,0.6402,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-4,grouped,2,{},nan,0.7313,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-4,grouped,3,{},nan,0.6222,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-4,grouped,4,{},nan,0.824,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-4,grouped,5,{},nan,0.7293,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-5,grouped,0,{},nan,0.6876,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-5,grouped,1,{},nan,0.6567,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-5,grouped,2,{},nan,0.7457,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-5,grouped,3,{},nan,0.6131,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-5,grouped,4,{},nan,0.7859,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:42,layer-wav2vec2-5,grouped,5,{},nan,0.6825,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-6,grouped,0,{},nan,0.6911,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-6,grouped,1,{},nan,0.643,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-6,grouped,2,{},nan,0.786,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-6,grouped,3,{},nan,0.6085,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-6,grouped,4,{},nan,0.777,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-6,grouped,5,{},nan,0.7239,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-7,grouped,0,{},nan,0.6607,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-7,grouped,1,{},nan,0.5848,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-7,grouped,2,{},nan,0.7266,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-7,grouped,3,{},nan,0.6079,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-7,grouped,4,{},nan,0.7291,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-7,grouped,5,{},nan,0.7329,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-8,grouped,0,{},nan,0.6618,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-8,grouped,1,{},nan,0.6122,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:43,layer-wav2vec2-8,grouped,2,{},nan,0.745,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-8,grouped,3,{},nan,0.5778,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-8,grouped,4,{},nan,0.748,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-8,grouped,5,{},nan,0.6861,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-9,grouped,0,{},nan,0.7009,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-9,grouped,1,{},nan,0.7097,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-9,grouped,2,{},nan,0.7596,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-9,grouped,3,{},nan,0.5968,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-9,grouped,4,{},nan,0.7447,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-9,grouped,5,{},nan,0.6847,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-10,grouped,0,{},nan,0.6245,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-10,grouped,1,{},nan,0.6212,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:44,layer-wav2vec2-10,grouped,2,{},nan,0.7532,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-10,grouped,3,{},nan,0.6236,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-10,grouped,4,{},nan,0.7477,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-10,grouped,5,{},nan,0.7106,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-11,grouped,0,{},nan,0.4844,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-11,grouped,1,{},nan,0.5609,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-11,grouped,2,{},nan,0.6359,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-11,grouped,3,{},nan,0.5596,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-11,grouped,4,{},nan,0.6421,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-11,grouped,5,{},nan,0.5542,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-12,grouped,0,{},nan,0.4059,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-12,grouped,1,{},nan,0.4761,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:45,layer-wav2vec2-12,grouped,2,{},nan,0.614,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-wav2vec2-12,grouped,3,{},nan,0.4716,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-wav2vec2-12,grouped,4,{},nan,0.5583,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-wav2vec2-12,grouped,5,{},nan,0.5353,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-hubert-0,grouped,0,{},nan,0.6017,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-hubert-0,grouped,1,{},nan,0.5188,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-hubert-0,grouped,2,{},nan,0.5764,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-hubert-0,grouped,3,{},nan,0.4658,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-hubert-0,grouped,4,{},nan,0.5153,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-hubert-0,grouped,5,{},nan,0.5732,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:46,layer-hubert-1,grouped,0,{},nan,0.5837,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-1,grouped,1,{},nan,0.533,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-1,grouped,2,{},nan,0.5921,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-1,grouped,3,{},nan,0.598,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-1,grouped,4,{},nan,0.657,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-1,grouped,5,{},nan,0.6452,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-2,grouped,0,{},nan,0.6468,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-2,grouped,1,{},nan,0.6163,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-2,grouped,2,{},nan,0.6538,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-2,grouped,3,{},nan,0.5565,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-2,grouped,4,{},nan,0.7127,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:47,layer-hubert-2,grouped,5,{},nan,0.677,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-3,grouped,0,{},nan,0.5923,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-3,grouped,1,{},nan,0.6306,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-3,grouped,2,{},nan,0.656,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-3,grouped,3,{},nan,0.6306,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-3,grouped,4,{},nan,0.7328,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-3,grouped,5,{},nan,0.6624,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-4,grouped,0,{},nan,0.5924,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-4,grouped,1,{},nan,0.6599,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-4,grouped,2,{},nan,0.723,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-4,grouped,3,{},nan,0.6401,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-4,grouped,4,{},nan,0.6813,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-4,grouped,5,{},nan,0.6677,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-5,grouped,0,{},nan,0.7147,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-5,grouped,1,{},nan,0.6462,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:48,layer-hubert-5,grouped,2,{},nan,0.7463,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-5,grouped,3,{},nan,0.667,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-5,grouped,4,{},nan,0.7627,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-5,grouped,5,{},nan,0.7134,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-6,grouped,0,{},nan,0.678,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-6,grouped,1,{},nan,0.6692,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-6,grouped,2,{},nan,0.7733,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-6,grouped,3,{},nan,0.6274,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-6,grouped,4,{},nan,0.7545,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-6,grouped,5,{},nan,0.6124,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-7,grouped,0,{},nan,0.6985,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-7,grouped,1,{},nan,0.581,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-7,grouped,2,{},nan,0.7777,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-7,grouped,3,{},nan,0.6466,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-7,grouped,4,{},nan,0.7334,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:49,layer-hubert-7,grouped,5,{},nan,0.6361,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-8,grouped,0,{},nan,0.6217,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-8,grouped,1,{},nan,0.6182,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-8,grouped,2,{},nan,0.7952,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-8,grouped,3,{},nan,0.5511,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-8,grouped,4,{},nan,0.7112,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-8,grouped,5,{},nan,0.6567,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-9,grouped,0,{},nan,0.6464,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-9,grouped,1,{},nan,0.5473,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-9,grouped,2,{},nan,0.7359,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-9,grouped,3,{},nan,0.5475,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-9,grouped,4,{},nan,0.7237,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:50,layer-hubert-9,grouped,5,{},nan,0.6907,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-10,grouped,0,{},nan,0.6579,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-10,grouped,1,{},nan,0.5864,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-10,grouped,2,{},nan,0.7128,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-10,grouped,3,{},nan,0.5831,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-10,grouped,4,{},nan,0.7404,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-10,grouped,5,{},nan,0.6547,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-11,grouped,0,{},nan,0.6816,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-11,grouped,1,{},nan,0.5922,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-11,grouped,2,{},nan,0.7302,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-11,grouped,3,{},nan,0.5881,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-11,grouped,4,{},nan,0.7192,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-11,grouped,5,{},nan,0.6446,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:51,layer-hubert-12,grouped,0,{},nan,0.6359,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-hubert-12,grouped,1,{},nan,0.5638,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-hubert-12,grouped,2,{},nan,0.6662,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-hubert-12,grouped,3,{},nan,0.5577,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-hubert-12,grouped,4,{},nan,0.7027,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-hubert-12,grouped,5,{},nan,0.6534,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-wavlm-0,grouped,0,{},nan,0.4688,900,180,0.2,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-wavlm-0,grouped,1,{},nan,0.5315,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-wavlm-0,grouped,2,{},nan,0.5168,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:52,layer-wavlm-0,grouped,3,{},nan,0.4433,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-0,grouped,4,{},nan,0.4628,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-0,grouped,5,{},nan,0.5595,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-1,grouped,0,{},nan,0.6149,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-1,grouped,1,{},nan,0.6049,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-1,grouped,2,{},nan,0.656,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-1,grouped,3,{},nan,0.5522,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-1,grouped,4,{},nan,0.6395,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-1,grouped,5,{},nan,0.6113,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-2,grouped,0,{},nan,0.6275,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:53,layer-wavlm-2,grouped,1,{},nan,0.6112,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-2,grouped,2,{},nan,0.7176,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-2,grouped,3,{},nan,0.6427,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-2,grouped,4,{},nan,0.7552,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-2,grouped,5,{},nan,0.643,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-3,grouped,0,{},nan,0.6994,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-3,grouped,1,{},nan,0.7345,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-3,grouped,2,{},nan,0.739,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-3,grouped,3,{},nan,0.606,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-3,grouped,4,{},nan,0.7679,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-3,grouped,5,{},nan,0.6982,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-4,grouped,0,{},nan,0.7389,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-4,grouped,1,{},nan,0.7126,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-4,grouped,2,{},nan,0.7427,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:54,layer-wavlm-4,grouped,3,{},nan,0.6565,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-4,grouped,4,{},nan,0.7427,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-4,grouped,5,{},nan,0.744,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-5,grouped,0,{},nan,0.7194,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-5,grouped,1,{},nan,0.7451,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-5,grouped,2,{},nan,0.7961,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-5,grouped,3,{},nan,0.6967,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-5,grouped,4,{},nan,0.7961,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-5,grouped,5,{},nan,0.7697,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-6,grouped,0,{},nan,0.7824,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-6,grouped,1,{},nan,0.7551,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-6,grouped,2,{},nan,0.7763,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-6,grouped,3,{},nan,0.6484,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-6,grouped,4,{},nan,0.7695,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-6,grouped,5,{},nan,0.7562,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:55,layer-wavlm-7,grouped,0,{},nan,0.7122,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-7,grouped,1,{},nan,0.6705,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-7,grouped,2,{},nan,0.7458,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-7,grouped,3,{},nan,0.6738,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-7,grouped,4,{},nan,0.778,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-7,grouped,5,{},nan,0.7693,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-8,grouped,0,{},nan,0.7472,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-8,grouped,1,{},nan,0.6091,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-8,grouped,2,{},nan,0.746,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-8,grouped,3,{},nan,0.6513,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-8,grouped,4,{},nan,0.7764,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-8,grouped,5,{},nan,0.6764,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-9,grouped,0,{},nan,0.7042,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:56,layer-wavlm-9,grouped,1,{},nan,0.6063,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-9,grouped,2,{},nan,0.7521,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-9,grouped,3,{},nan,0.6123,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-9,grouped,4,{},nan,0.7584,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-9,grouped,5,{},nan,0.6507,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,cnn-s0,grouped,0,"{""inner_macro_f1"": 0.44555832806630835, ""best_epoch"": 14, ""epochs_run"": 27}",0.4456,0.3929,720,180,62.4,M2 CNN
+2026-09-24 22:57:57,layer-wavlm-10,grouped,0,{},nan,0.7258,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-10,grouped,1,{},nan,0.5744,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-10,grouped,2,{},nan,0.726,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-10,grouped,3,{},nan,0.5309,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:57,layer-wavlm-10,grouped,4,{},nan,0.7672,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-10,grouped,5,{},nan,0.6925,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-11,grouped,0,{},nan,0.7588,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-11,grouped,1,{},nan,0.6163,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-11,grouped,2,{},nan,0.773,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-11,grouped,3,{},nan,0.5854,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-11,grouped,4,{},nan,0.7551,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-11,grouped,5,{},nan,0.6489,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:58,layer-wavlm-12,grouped,0,{},nan,0.6826,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:59,layer-wavlm-12,grouped,1,{},nan,0.6055,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:59,layer-wavlm-12,grouped,2,{},nan,0.7581,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:59,layer-wavlm-12,grouped,3,{},nan,0.5068,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:59,layer-wavlm-12,grouped,4,{},nan,0.7312,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:57:59,layer-wavlm-12,grouped,5,{},nan,0.6093,900,180,0.1,F11b layer profile C=0.1
+2026-09-24 22:58:59,cnn-s1,grouped,0,"{""inner_macro_f1"": 0.4579037358253265, ""best_epoch"": 17, ""epochs_run"": 30}",0.4579,0.4868,720,180,61.9,M2 CNN
+2026-09-24 23:00:05,cnn-s2,grouped,0,"{""inner_macro_f1"": 0.41284261021103125, ""best_epoch"": 18, ""epochs_run"": 31}",0.4128,0.4777,720,180,66.0,M2 CNN
+2026-09-24 23:00:14,gbm,random,1,"{""learning_rate"": 0.1, ""max_leaf_nodes"": 7}",0.6362,0.6847,900,180,221.2,M1
+2026-09-24 23:01:02,cnn-s0,grouped,1,"{""inner_macro_f1"": 0.4963723080722757, ""best_epoch"": 15, ""epochs_run"": 28}",0.4964,0.4114,720,180,57.0,M2 CNN
+2026-09-24 23:02:04,cnn-s1,grouped,1,"{""inner_macro_f1"": 0.48683714517323723, ""best_epoch"": 17, ""epochs_run"": 30}",0.4868,0.4579,720,180,62.3,M2 CNN
+2026-09-24 23:02:35,cnn-s2,grouped,1,"{""inner_macro_f1"": 0.410261209274995, ""best_epoch"": 5, ""epochs_run"": 18}",0.4103,0.2769,720,180,30.2,M2 CNN
+2026-09-24 23:02:57,cnn-s0,grouped,2,"{""inner_macro_f1"": 0.3462785910799052, ""best_epoch"": 2, ""epochs_run"": 15}",0.3463,0.3828,720,180,22.2,M2 CNN
+2026-09-24 23:03:47,gbm,random,2,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.6364,0.6035,900,180,212.3,M1
+2026-09-24 23:04:16,cnn-s1,grouped,2,"{""inner_macro_f1"": 0.4871679297044549, ""best_epoch"": 23, ""epochs_run"": 36}",0.4872,0.3888,720,180,79.1,M2 CNN
+2026-09-24 23:05:23,cnn-s2,grouped,2,"{""inner_macro_f1"": 0.46368286641916645, ""best_epoch"": 19, ""epochs_run"": 32}",0.4637,0.384,720,180,67.6,M2 CNN
+2026-09-24 23:06:21,cnn-s0,grouped,3,"{""inner_macro_f1"": 0.48652927226077647, ""best_epoch"": 15, ""epochs_run"": 28}",0.4865,0.3432,720,180,57.2,M2 CNN
+2026-09-24 23:07:22,gbm,random,3,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.6012,0.6506,900,180,216.0,M1
+2026-09-24 23:07:24,cnn-s1,grouped,3,"{""inner_macro_f1"": 0.5371698263761812, ""best_epoch"": 17, ""epochs_run"": 30}",0.5372,0.3483,720,180,62.7,M2 CNN
+2026-09-24 23:08:02,cnn-s2,grouped,3,"{""inner_macro_f1"": 0.44980620155038764, ""best_epoch"": 8, ""epochs_run"": 21}",0.4498,0.3224,720,180,38.1,M2 CNN
+2026-09-24 23:09:10,cnn-s0,grouped,4,"{""inner_macro_f1"": 0.4540388914121165, ""best_epoch"": 19, ""epochs_run"": 32}",0.454,0.4586,720,180,68.0,M2 CNN
+2026-09-24 23:10:42,cnn-s1,grouped,4,"{""inner_macro_f1"": 0.504946821913635, ""best_epoch"": 28, ""epochs_run"": 41}",0.5049,0.434,720,180,92.0,M2 CNN
+2026-09-24 23:10:59,gbm,random,4,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.6024,0.5923,900,180,216.4,M1
+2026-09-24 23:13:05,cnn-s2,grouped,4,"{""inner_macro_f1"": 0.5478592908669995, ""best_epoch"": 47, ""epochs_run"": 60}",0.5479,0.4566,720,180,143.8,M2 CNN
+2026-09-24 23:13:41,cnn-s0,grouped,5,"{""inner_macro_f1"": 0.3801640926640927, ""best_epoch"": 7, ""epochs_run"": 20}",0.3802,0.3301,720,180,35.4,M2 CNN
+2026-09-24 23:14:34,gbm,random,5,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 15}",0.6136,0.667,900,180,214.8,M1
+2026-09-24 23:14:50,cnn-s1,grouped,5,"{""inner_macro_f1"": 0.49001979501979503, ""best_epoch"": 23, ""epochs_run"": 36}",0.49,0.4259,720,180,68.6,M2 CNN
+2026-09-24 23:16:10,cnn-s2,grouped,5,"{""inner_macro_f1"": 0.5517832274767003, ""best_epoch"": 45, ""epochs_run"": 58}",0.5518,0.5253,720,180,80.4,M2 CNN
+2026-09-24 23:16:38,cnn-s0,random,0,"{""inner_macro_f1"": 0.43820726680909194, ""best_epoch"": 7, ""epochs_run"": 20}",0.4382,0.3181,720,180,28.1,M2 CNN
+2026-09-24 23:17:28,cnn-s1,random,0,"{""inner_macro_f1"": 0.5044841697781017, ""best_epoch"": 23, ""epochs_run"": 36}",0.5045,0.4035,720,180,50.1,M2 CNN
+2026-09-24 23:18:14,cnn-s2,random,0,"{""inner_macro_f1"": 0.530426281720263, ""best_epoch"": 20, ""epochs_run"": 33}",0.5304,0.3811,720,180,46.0,M2 CNN
+2026-09-24 23:18:38,cnn-s0,random,1,"{""inner_macro_f1"": 0.39737086695143176, ""best_epoch"": 4, ""epochs_run"": 17}",0.3974,0.3721,720,180,23.9,M2 CNN
+2026-09-24 23:19:58,cnn-s1,random,1,"{""inner_macro_f1"": 0.521189182194617, ""best_epoch"": 45, ""epochs_run"": 58}",0.5212,0.4494,720,180,80.2,M2 CNN
+2026-09-24 23:20:50,cnn-s2,random,1,"{""inner_macro_f1"": 0.5280814881813689, ""best_epoch"": 24, ""epochs_run"": 37}",0.5281,0.4948,720,180,51.5,M2 CNN
+2026-09-24 23:21:22,cnn-s0,random,2,"{""inner_macro_f1"": 0.447906191031191, ""best_epoch"": 10, ""epochs_run"": 23}",0.4479,0.3962,720,180,32.2,M2 CNN
+2026-09-24 23:22:45,cnn-s1,random,2,"{""inner_macro_f1"": 0.5194586332645186, ""best_epoch"": 59, ""epochs_run"": 60}",0.5195,0.5146,720,180,83.3,M2 CNN
+2026-09-24 23:23:34,cnn-s2,random,2,"{""inner_macro_f1"": 0.47812256477506143, ""best_epoch"": 22, ""epochs_run"": 35}",0.4781,0.4612,720,180,48.7,M2 CNN
+2026-09-24 23:23:57,cnn-s0,random,3,"{""inner_macro_f1"": 0.3826011021146763, ""best_epoch"": 3, ""epochs_run"": 16}",0.3826,0.4117,720,180,22.6,M2 CNN
+2026-09-24 23:24:22,cnn-s1,random,3,"{""inner_macro_f1"": 0.3637600310120835, ""best_epoch"": 5, ""epochs_run"": 18}",0.3638,0.2905,720,180,25.3,M2 CNN
+2026-09-24 23:25:45,cnn-s2,random,3,"{""inner_macro_f1"": 0.5051069703243616, ""best_epoch"": 47, ""epochs_run"": 60}",0.5051,0.5547,720,180,83.3,M2 CNN
+2026-09-24 23:26:46,cnn-s0,random,4,"{""inner_macro_f1"": 0.5227321338873461, ""best_epoch"": 31, ""epochs_run"": 44}",0.5227,0.4682,720,180,60.4,M2 CNN
+2026-09-24 23:28:08,cnn-s1,random,4,"{""inner_macro_f1"": 0.5240277179575923, ""best_epoch"": 53, ""epochs_run"": 60}",0.524,0.5937,720,180,81.7,M2 CNN
+2026-09-24 23:28:46,cnn-s2,random,4,"{""inner_macro_f1"": 0.4330289883311824, ""best_epoch"": 15, ""epochs_run"": 28}",0.433,0.4814,720,180,38.4,M2 CNN
+2026-09-24 23:30:04,cnn-s0,random,5,"{""inner_macro_f1"": 0.5947733348525532, ""best_epoch"": 44, ""epochs_run"": 57}",0.5948,0.4819,720,180,77.8,M2 CNN
+2026-09-24 23:30:25,cnn-s1,random,5,"{""inner_macro_f1"": 0.4356811819814399, ""best_epoch"": 2, ""epochs_run"": 15}",0.4357,0.3389,720,180,20.9,M2 CNN
+2026-09-24 23:30:51,cnn-s2,random,5,"{""inner_macro_f1"": 0.4360122637997813, ""best_epoch"": 6, ""epochs_run"": 19}",0.436,0.3129,720,180,26.2,M2 CNN
+2026-09-29 06:19:22,t0,grouped,0,{},nan,0.4688,900,180,4.1,
+2026-09-29 06:19:25,t0,grouped,1,{},nan,0.4566,900,180,2.8,
+2026-09-29 06:19:29,t0,grouped,2,{},nan,0.4628,900,180,4.2,
+2026-09-29 06:19:34,t0,grouped,3,{},nan,0.4433,900,180,5.5,
+2026-09-29 06:19:39,t0,grouped,4,{},nan,0.517,900,180,4.6,
+2026-09-29 06:19:43,t0,grouped,5,{},nan,0.5788,900,180,4.1,
+2026-09-29 06:19:44,t5,grouped,0,{},nan,0.7194,900,180,1.5,
+2026-09-29 06:19:45,t5,grouped,1,{},nan,0.638,900,180,0.9,
+2026-09-29 06:19:47,t5,grouped,2,{},nan,0.7961,900,180,1.8,
+2026-09-29 06:19:48,t5,grouped,3,{},nan,0.6967,900,180,1.2,
+2026-09-29 06:19:49,t5,grouped,4,{},nan,0.7961,900,180,0.5,
+2026-09-29 06:19:50,t5,grouped,5,{},nan,0.8112,900,180,1.3,
+2026-09-29 06:19:52,t12,grouped,0,{},nan,0.6826,900,180,2.0,
+2026-09-29 06:19:54,t12,grouped,1,{},nan,0.5338,900,180,1.8,
+2026-09-29 06:19:56,t12,grouped,2,{},nan,0.7312,900,180,1.9,
+2026-09-29 06:19:58,t12,grouped,3,{},nan,0.5068,900,180,2.6,
+2026-09-29 06:20:00,t12,grouped,4,{},nan,0.7581,900,180,1.8,
+2026-09-29 06:20:03,t12,grouped,5,{},nan,0.6603,900,180,2.4,

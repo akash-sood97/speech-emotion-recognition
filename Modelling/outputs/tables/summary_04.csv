@@ -1,0 +1,3 @@
+H,hypothesis,verdict,evidence,so we
+H24,A log-mel CNN beats tuned logistic regression on speaker-grouped CV,not supported,cnn 0.4327 vs logreg 0.5169,"keep the CNN as a Grad-CAM contrast, not the headline model"
+H25,Averaging three training seeds stabilises the CNN fold score,not supported,"ens_sd=0.06404; mean_seed_sd=0.06402; mean_gap=+0.02696; gaps=+0.0070, +0.0794, -0.0195, +0.0051, +0.0078, +0.0820",report the three-seed ensemble as the CNN rung (mean gain per fold +0.02696)

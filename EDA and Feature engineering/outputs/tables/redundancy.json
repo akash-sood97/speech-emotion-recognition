@@ -1,0 +1,7 @@
+{
+  "n_features": 512,
+  "n_pairs": 130816,
+  "pairs_abs_r_gt_0.9": 106,
+  "pairs_abs_r_gt_0.8": 707,
+  "features_with_a_partner_gt_0.9": 144
+}
